@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A375658204B40C300BD0214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A375657204B40C300BD0214 /* AppDelegate.swift */; };
+		4A37565A204B40C300BD0214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A375659204B40C300BD0214 /* ViewController.swift */; };
+		4A37565D204B40C300BD0214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A37565B204B40C300BD0214 /* Main.storyboard */; };
+		4A37565F204B40C300BD0214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A37565E204B40C300BD0214 /* Assets.xcassets */; };
+		4A375662204B40C300BD0214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A375660204B40C300BD0214 /* LaunchScreen.storyboard */; };
+		4A37566D204B40C300BD0214 /* StressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37566C204B40C300BD0214 /* StressTests.swift */; };
+		4A375678204B40C300BD0214 /* StressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A375677204B40C300BD0214 /* StressUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A375669204B40C300BD0214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A37564C204B40C300BD0214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A375653204B40C300BD0214;
+			remoteInfo = Stress;
+		};
+		4A375674204B40C300BD0214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A37564C204B40C300BD0214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A375653204B40C300BD0214;
+			remoteInfo = Stress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A375654204B40C300BD0214 /* Stress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A375657204B40C300BD0214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A375659204B40C300BD0214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A37565C204B40C300BD0214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A37565E204B40C300BD0214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A375661204B40C300BD0214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A375663204B40C300BD0214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A375668204B40C300BD0214 /* StressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A37566C204B40C300BD0214 /* StressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressTests.swift; sourceTree = "<group>"; };
+		4A37566E204B40C300BD0214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A375673204B40C300BD0214 /* StressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A375677204B40C300BD0214 /* StressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressUITests.swift; sourceTree = "<group>"; };
+		4A375679204B40C300BD0214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A375651204B40C300BD0214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A375665204B40C300BD0214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A375670204B40C300BD0214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A37564B204B40C300BD0214 = {
+			isa = PBXGroup;
+			children = (
+				4A375656204B40C300BD0214 /* Stress */,
+				4A37566B204B40C300BD0214 /* StressTests */,
+				4A375676204B40C300BD0214 /* StressUITests */,
+				4A375655204B40C300BD0214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A375655204B40C300BD0214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A375654204B40C300BD0214 /* Stress.app */,
+				4A375668204B40C300BD0214 /* StressTests.xctest */,
+				4A375673204B40C300BD0214 /* StressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A375656204B40C300BD0214 /* Stress */ = {
+			isa = PBXGroup;
+			children = (
+				4A375657204B40C300BD0214 /* AppDelegate.swift */,
+				4A375659204B40C300BD0214 /* ViewController.swift */,
+				4A37565B204B40C300BD0214 /* Main.storyboard */,
+				4A37565E204B40C300BD0214 /* Assets.xcassets */,
+				4A375660204B40C300BD0214 /* LaunchScreen.storyboard */,
+				4A375663204B40C300BD0214 /* Info.plist */,
+			);
+			path = Stress;
+			sourceTree = "<group>";
+		};
+		4A37566B204B40C300BD0214 /* StressTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A37566C204B40C300BD0214 /* StressTests.swift */,
+				4A37566E204B40C300BD0214 /* Info.plist */,
+			);
+			path = StressTests;
+			sourceTree = "<group>";
+		};
+		4A375676204B40C300BD0214 /* StressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A375677204B40C300BD0214 /* StressUITests.swift */,
+				4A375679204B40C300BD0214 /* Info.plist */,
+			);
+			path = StressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A375653204B40C300BD0214 /* Stress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A37567C204B40C300BD0214 /* Build configuration list for PBXNativeTarget "Stress" */;
+			buildPhases = (
+				4A375650204B40C300BD0214 /* Sources */,
+				4A375651204B40C300BD0214 /* Frameworks */,
+				4A375652204B40C300BD0214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stress;
+			productName = Stress;
+			productReference = 4A375654204B40C300BD0214 /* Stress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A375667204B40C300BD0214 /* StressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A37567F204B40C300BD0214 /* Build configuration list for PBXNativeTarget "StressTests" */;
+			buildPhases = (
+				4A375664204B40C300BD0214 /* Sources */,
+				4A375665204B40C300BD0214 /* Frameworks */,
+				4A375666204B40C300BD0214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A37566A204B40C300BD0214 /* PBXTargetDependency */,
+			);
+			name = StressTests;
+			productName = StressTests;
+			productReference = 4A375668204B40C300BD0214 /* StressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A375672204B40C300BD0214 /* StressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A375682204B40C300BD0214 /* Build configuration list for PBXNativeTarget "StressUITests" */;
+			buildPhases = (
+				4A37566F204B40C300BD0214 /* Sources */,
+				4A375670204B40C300BD0214 /* Frameworks */,
+				4A375671204B40C300BD0214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A375675204B40C300BD0214 /* PBXTargetDependency */,
+			);
+			name = StressUITests;
+			productName = StressUITests;
+			productReference = 4A375673204B40C300BD0214 /* StressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A37564C204B40C300BD0214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Xiuya Yao";
+				TargetAttributes = {
+					4A375653204B40C300BD0214 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4A375667204B40C300BD0214 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A375653204B40C300BD0214;
+					};
+					4A375672204B40C300BD0214 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A375653204B40C300BD0214;
+					};
+				};
+			};
+			buildConfigurationList = 4A37564F204B40C300BD0214 /* Build configuration list for PBXProject "Stress" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A37564B204B40C300BD0214;
+			productRefGroup = 4A375655204B40C300BD0214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A375653204B40C300BD0214 /* Stress */,
+				4A375667204B40C300BD0214 /* StressTests */,
+				4A375672204B40C300BD0214 /* StressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A375652204B40C300BD0214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A375662204B40C300BD0214 /* LaunchScreen.storyboard in Resources */,
+				4A37565F204B40C300BD0214 /* Assets.xcassets in Resources */,
+				4A37565D204B40C300BD0214 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A375666204B40C300BD0214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A375671204B40C300BD0214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A375650204B40C300BD0214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A37565A204B40C300BD0214 /* ViewController.swift in Sources */,
+				4A375658204B40C300BD0214 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A375664204B40C300BD0214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A37566D204B40C300BD0214 /* StressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A37566F204B40C300BD0214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A375678204B40C300BD0214 /* StressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A37566A204B40C300BD0214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A375653204B40C300BD0214 /* Stress */;
+			targetProxy = 4A375669204B40C300BD0214 /* PBXContainerItemProxy */;
+		};
+		4A375675204B40C300BD0214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A375653204B40C300BD0214 /* Stress */;
+			targetProxy = 4A375674204B40C300BD0214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A37565B204B40C300BD0214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A37565C204B40C300BD0214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A375660204B40C300BD0214 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A375661204B40C300BD0214 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A37567A204B40C300BD0214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A37567B204B40C300BD0214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A37567D204B40C300BD0214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Xiuya-Yao.Stress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A37567E204B40C300BD0214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Xiuya-Yao.Stress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A375680204B40C300BD0214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Xiuya-Yao.StressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress.app/Stress";
+			};
+			name = Debug;
+		};
+		4A375681204B40C300BD0214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Xiuya-Yao.StressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress.app/Stress";
+			};
+			name = Release;
+		};
+		4A375683204B40C300BD0214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Xiuya-Yao.StressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stress;
+			};
+			name = Debug;
+		};
+		4A375684204B40C300BD0214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Xiuya-Yao.StressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A37564F204B40C300BD0214 /* Build configuration list for PBXProject "Stress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A37567A204B40C300BD0214 /* Debug */,
+				4A37567B204B40C300BD0214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A37567C204B40C300BD0214 /* Build configuration list for PBXNativeTarget "Stress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A37567D204B40C300BD0214 /* Debug */,
+				4A37567E204B40C300BD0214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A37567F204B40C300BD0214 /* Build configuration list for PBXNativeTarget "StressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A375680204B40C300BD0214 /* Debug */,
+				4A375681204B40C300BD0214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A375682204B40C300BD0214 /* Build configuration list for PBXNativeTarget "StressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A375683204B40C300BD0214 /* Debug */,
+				4A375684204B40C300BD0214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A37564C204B40C300BD0214 /* Project object */;
+}
