@@ -10,6 +10,10 @@
 		4857F3D0BFD81635E919E62A /* Pods_StressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9180199EAAB79FF1D2F7E63E /* Pods_StressUITests.framework */; };
 		4A16C749206325DD00524BEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C748206325DD00524BEA /* LoginViewController.swift */; };
 		4A16C74B206327A900524BEA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C74A206327A900524BEA /* SignUpViewController.swift */; };
+		4A16C74D20642DCD00524BEA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C74C20642DCD00524BEA /* ProfileViewController.swift */; };
+		4A16C74F20642DDB00524BEA /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C74E20642DDB00524BEA /* SocialViewController.swift */; };
+		4A16C75120642E0000524BEA /* YSCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C75020642E0000524BEA /* YSCViewController.swift */; };
+		4A16C75320642E0900524BEA /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C75220642E0900524BEA /* FeaturedViewController.swift */; };
 		4A375658204B40C300BD0214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A375657204B40C300BD0214 /* AppDelegate.swift */; };
 		4A37565A204B40C300BD0214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A375659204B40C300BD0214 /* ViewController.swift */; };
 		4A37565D204B40C300BD0214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A37565B204B40C300BD0214 /* Main.storyboard */; };
@@ -44,6 +48,10 @@
 		43A5D1D2F65DA7F333C5917B /* Pods-StressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StressTests/Pods-StressTests.release.xcconfig"; sourceTree = "<group>"; };
 		4A16C748206325DD00524BEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4A16C74A206327A900524BEA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4A16C74C20642DCD00524BEA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4A16C74E20642DDB00524BEA /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		4A16C75020642E0000524BEA /* YSCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCViewController.swift; sourceTree = "<group>"; };
+		4A16C75220642E0900524BEA /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		4A375654204B40C300BD0214 /* Stress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A375657204B40C300BD0214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A375659204B40C300BD0214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +116,10 @@
 			children = (
 				4A16C748206325DD00524BEA /* LoginViewController.swift */,
 				4A16C74A206327A900524BEA /* SignUpViewController.swift */,
+				4A16C74E20642DDB00524BEA /* SocialViewController.swift */,
+				4A16C75220642E0900524BEA /* FeaturedViewController.swift */,
+				4A16C75020642E0000524BEA /* YSCViewController.swift */,
+				4A16C74C20642DCD00524BEA /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -476,7 +488,11 @@
 			files = (
 				4A16C749206325DD00524BEA /* LoginViewController.swift in Sources */,
 				4A37565A204B40C300BD0214 /* ViewController.swift in Sources */,
+				4A16C74D20642DCD00524BEA /* ProfileViewController.swift in Sources */,
+				4A16C75120642E0000524BEA /* YSCViewController.swift in Sources */,
+				4A16C74F20642DDB00524BEA /* SocialViewController.swift in Sources */,
 				4A16C74B206327A900524BEA /* SignUpViewController.swift in Sources */,
+				4A16C75320642E0900524BEA /* FeaturedViewController.swift in Sources */,
 				4A375658204B40C300BD0214 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

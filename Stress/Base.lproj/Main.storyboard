@@ -13,7 +13,7 @@
         <!--Featured-->
         <scene sceneID="pCH-To-43k">
             <objects>
-                <viewController id="5Rz-TB-xYL" sceneMemberID="viewController">
+                <viewController id="5Rz-TB-xYL" customClass="FeaturedViewController" customModule="Stress" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FmE-fc-hUP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
         <!--All YSC-->
         <scene sceneID="z4J-uQ-eWW">
             <objects>
-                <viewController id="EnQ-7y-N0T" sceneMemberID="viewController">
+                <viewController id="EnQ-7y-N0T" customClass="YSCViewController" customModule="Stress" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aQC-Yu-U4j">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,7 +79,7 @@
         <!--Profile-->
         <scene sceneID="5pD-it-ako">
             <objects>
-                <viewController id="Ri6-lj-qD5" sceneMemberID="viewController">
+                <viewController id="Ri6-lj-qD5" customClass="ProfileViewController" customModule="Stress" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5o3-pw-Wlu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
         <!--Social-->
         <scene sceneID="Ara-cX-MJK">
             <objects>
-                <viewController id="Ofe-DY-A2b" sceneMemberID="viewController">
+                <viewController id="Ofe-DY-A2b" customClass="SocialViewController" customModule="Stress" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ewe-UZ-AkW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
