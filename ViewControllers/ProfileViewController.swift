@@ -7,9 +7,27 @@
 //
 
 import UIKit
+import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBAction func logoutUser(_ sender: UIButton) {
+        
+        PFUser.logOutInBackground { (error: Error?) in
+        }
+        
+        // PFUser.currentUser() will now be nil
+        print("User logged out successfully")
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+        present(loginViewController, animated: true)  {
+            
+        }
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

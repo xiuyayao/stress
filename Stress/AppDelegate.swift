@@ -28,6 +28,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
+        // Check if user is logged in.
+        if let currentUser = PFUser.current() {
+            print("Welcome back \(currentUser.username!) 😀")
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let tabBarController = storyboard.instantiateViewController(withIdentifier: "TabBarController")
+            // TabBarController is storyboard ID
+            window?.rootViewController = tabBarController
+        }
+        
         return true
     }
 
