@@ -14,6 +14,9 @@
 		4A16C74F20642DDB00524BEA /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C74E20642DDB00524BEA /* SocialViewController.swift */; };
 		4A16C75120642E0000524BEA /* YSCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C75020642E0000524BEA /* YSCViewController.swift */; };
 		4A16C75320642E0900524BEA /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C75220642E0900524BEA /* FeaturedViewController.swift */; };
+		4A16C7552067046600524BEA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C7542067046600524BEA /* Contact.swift */; };
+		4A16C757206707B200524BEA /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C756206707B200524BEA /* ContactDetailViewController.swift */; };
+		4A16C759206707F100524BEA /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A16C758206707F100524BEA /* AddContactViewController.swift */; };
 		4A375658204B40C300BD0214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A375657204B40C300BD0214 /* AppDelegate.swift */; };
 		4A37565A204B40C300BD0214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A375659204B40C300BD0214 /* ViewController.swift */; };
 		4A37565D204B40C300BD0214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A37565B204B40C300BD0214 /* Main.storyboard */; };
@@ -52,6 +55,9 @@
 		4A16C74E20642DDB00524BEA /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 		4A16C75020642E0000524BEA /* YSCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCViewController.swift; sourceTree = "<group>"; };
 		4A16C75220642E0900524BEA /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		4A16C7542067046600524BEA /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		4A16C756206707B200524BEA /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		4A16C758206707F100524BEA /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		4A375654204B40C300BD0214 /* Stress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A375657204B40C300BD0214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A375659204B40C300BD0214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +126,8 @@
 				4A16C75220642E0900524BEA /* FeaturedViewController.swift */,
 				4A16C75020642E0000524BEA /* YSCViewController.swift */,
 				4A16C74C20642DCD00524BEA /* ProfileViewController.swift */,
+				4A16C756206707B200524BEA /* ContactDetailViewController.swift */,
+				4A16C758206707F100524BEA /* AddContactViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 				4A37565E204B40C300BD0214 /* Assets.xcassets */,
 				4A375660204B40C300BD0214 /* LaunchScreen.storyboard */,
 				4A375663204B40C300BD0214 /* Info.plist */,
+				4A16C7542067046600524BEA /* Contact.swift */,
 			);
 			path = Stress;
 			sourceTree = "<group>";
@@ -486,11 +495,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A16C7552067046600524BEA /* Contact.swift in Sources */,
+				4A16C759206707F100524BEA /* AddContactViewController.swift in Sources */,
 				4A16C749206325DD00524BEA /* LoginViewController.swift in Sources */,
 				4A37565A204B40C300BD0214 /* ViewController.swift in Sources */,
 				4A16C74D20642DCD00524BEA /* ProfileViewController.swift in Sources */,
 				4A16C75120642E0000524BEA /* YSCViewController.swift in Sources */,
 				4A16C74F20642DDB00524BEA /* SocialViewController.swift in Sources */,
+				4A16C757206707B200524BEA /* ContactDetailViewController.swift in Sources */,
 				4A16C74B206327A900524BEA /* SignUpViewController.swift in Sources */,
 				4A16C75320642E0900524BEA /* FeaturedViewController.swift in Sources */,
 				4A375658204B40C300BD0214 /* AppDelegate.swift in Sources */,
