@@ -24,6 +24,7 @@
 		4A375662204B40C300BD0214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A375660204B40C300BD0214 /* LaunchScreen.storyboard */; };
 		4A37566D204B40C300BD0214 /* StressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37566C204B40C300BD0214 /* StressTests.swift */; };
 		4A375678204B40C300BD0214 /* StressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A375677204B40C300BD0214 /* StressUITests.swift */; };
+		4AB1A1C2207DAE7100BF7CC8 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1A1C1207DAE7100BF7CC8 /* MessageViewController.swift */; };
 		5B6D815BFB0F79891EF2614E /* Pods_StressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BA905A36D45ECCDC2D4DE3 /* Pods_StressTests.framework */; };
 		8559F54FD40ABC5B237E1B5B /* Pods_Stress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA1FA34F26F40058B88F947 /* Pods_Stress.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		4A375673204B40C300BD0214 /* StressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A375677204B40C300BD0214 /* StressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressUITests.swift; sourceTree = "<group>"; };
 		4A375679204B40C300BD0214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB1A1C1207DAE7100BF7CC8 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		5AA1FA34F26F40058B88F947 /* Pods_Stress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7980192684E38AE29E1D0EA7 /* Pods-StressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StressUITests/Pods-StressUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		85FD4ABD5DB8EEE7F835AF29 /* Pods-StressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StressTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StressTests/Pods-StressTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				4A16C74C20642DCD00524BEA /* ProfileViewController.swift */,
 				4A16C756206707B200524BEA /* ContactDetailViewController.swift */,
 				4A16C758206707F100524BEA /* AddContactViewController.swift */,
+				4AB1A1C1207DAE7100BF7CC8 /* MessageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				4A16C757206707B200524BEA /* ContactDetailViewController.swift in Sources */,
 				4A16C74B206327A900524BEA /* SignUpViewController.swift in Sources */,
 				4A16C75320642E0900524BEA /* FeaturedViewController.swift in Sources */,
+				4AB1A1C2207DAE7100BF7CC8 /* MessageViewController.swift in Sources */,
 				4A375658204B40C300BD0214 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -59,7 +59,7 @@ class SignUpViewController: UIViewController {
         // dismiss keyboard
         view.endEditing(true)
         // dismiss modal view
-        self.dismiss(animated: true, completion: nil)
+        self.dismiss(animated: false, completion: nil)
     }
     
     // Calls this function when the tap is recognized.

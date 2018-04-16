@@ -10,6 +10,10 @@ import UIKit
 
 class SocialViewController: UIViewController {
 
+    @IBAction func AddContact(_ sender: UIBarButtonItem) {
+        self.performSegue(withIdentifier: "AddContactSegue", sender: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

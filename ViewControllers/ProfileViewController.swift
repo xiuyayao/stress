@@ -10,8 +10,8 @@ import UIKit
 import Parse
 
 class ProfileViewController: UIViewController {
-
-    @IBAction func logoutUser(_ sender: UIButton) {
+    
+    @IBAction func logoutAction(_ sender: UIBarButtonItem) {
         
         PFUser.logOutInBackground { (error: Error?) in
         }
@@ -24,7 +24,6 @@ class ProfileViewController: UIViewController {
         present(loginViewController, animated: true)  {
             
         }
-        
     }
     
     
@@ -32,6 +31,9 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

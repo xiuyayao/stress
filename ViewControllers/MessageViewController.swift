@@ -1,20 +1,20 @@
 //
-//  AddContactViewController.swift
+//  MessageViewController.swift
 //  Stress
 //
-//  Created by Xiuya Yao on 3/24/18.
+//  Created by Xiuya Yao on 4/10/18.
 //  Copyright © 2018 Xiuya Yao. All rights reserved.
 //
 
 import UIKit
-import Parse
 
-class AddContactViewController: UIViewController {
+class MessageViewController: UIViewController {
     
     @IBAction func cancelAction(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
