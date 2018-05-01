@@ -14,10 +14,29 @@ class SocialViewController: UIViewController {
         self.performSegue(withIdentifier: "AddContactSegue", sender: nil)
     }
     
+    @IBOutlet weak var roseProfilePic: UIImageView!
+    
+    @IBOutlet weak var ashtonProfilePic: UIImageView!
+    
+    @IBOutlet weak var victoriaProfilePic: UIImageView!
+    
+    @IBOutlet weak var joshProfilePic: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        roseProfilePic.layer.cornerRadius = 70;
+        ashtonProfilePic.layer.cornerRadius = 70;
+        victoriaProfilePic.layer.cornerRadius = 70;
+        joshProfilePic.layer.cornerRadius = 70;
+        
+        roseProfilePic.layer.masksToBounds = true;
+        ashtonProfilePic.layer.masksToBounds = true;
+        victoriaProfilePic.layer.masksToBounds = true;
+        joshProfilePic.layer.masksToBounds = true;
+
     }
 
     override func didReceiveMemoryWarning() {
